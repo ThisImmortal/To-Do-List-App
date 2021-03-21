@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>Get Started with Planning</title>
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link type="text/css" 
+      rel="stylesheet" 
+      href="${pageContext.request.contextPath}/resources/css/get-started-button.css"/>
+<link type="text/css" 
+      rel="stylesheet" 
+      href="${pageContext.request.contextPath}/resources/css/menu-bar.css"/>
+</head>
+
+
+
+
+<body>
+
+
+
+<div class="container">
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="showLoginPage"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+
+  <!-- <img src="${pageContext.request.contextPath}/resources/images/background2.jpg" alt="Snow" style="width:100%">  -->
+  <a href="https://google.com" class="btn">Get Started</a>
+  <!--<button class="btn">Button</button>  -->
+</div>
+
+
+
+</body>
+</html>
